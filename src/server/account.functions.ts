@@ -1,7 +1,6 @@
 import { User, UserModel } from "@/database/user.models";
 import { LoginSchema, UserSchema } from "@/schemas/account.schema";
 import { createServerFn } from "@tanstack/react-start";
-import { nanoid } from "nanoid";
 import bcrypt from "bcryptjs";
 import { connectDb } from "@/database/Db";
 import jwt from "jsonwebtoken";
